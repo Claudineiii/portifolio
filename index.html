@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Claudinei Costa</span></a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#sobre" class="item-nav">Sobre</a></li>
+          <li><a href="#skills" class="item-nav">Skills</a></li>
+          <li><a href="#projects" class="item-nav">Projetos</a></li>
+          <li><a href="#contact" class="item-nav">Contato</a></li>
+        </ul>
+      </nav>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <a href="https://github.com/" class="btn-visit"
+        ><span>Visitar Github</span></a
+      >
+    </header>
+
+    <main>
+      <section class="sobre" id="sobre">
+        <div class="sobre-container">
+          <div class="about-img">
+            <img
+              src="assets/image/claudinei-img.png"
+              alt="Foto de Claudinei Costa"
+            />
+          </div>
+
+          <div class="about-content">
+            <h3>Ola, eu sou</h3>
+            <h1>Claudinei Costa</h1>
+            <span class="profissão">Desenvolvedor Web </span>
+
+            <div class="btn-group">
+              <a href="/assets/Claudineii_cv.pdf" target="_blank" class="btn"
+                >Download CV</a
+              >
+
+              <a
+                href="https://wa.me/5519993361328?text=Olá,%20Claudinei!%20Vi%20o%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+                target="_blank"
+                class="btn"
+                >Contato</a
+              >
+            </div>
+
+            <div class="social">
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="heading">Minhas <span>Skills</span></h2>
+
+        <div class="skills-container">
+          <div class="skill-box reveal">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill-box reveal">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill-box reveal">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-box reveal">
+            <i class="fa-brands fa-node-js"></i>
+            <h3>Node.js</h3>
+          </div>
+          <div class="skill-box reveal">
+            <i class="fa-solid fa-database"></i>
+            <h3>SQL Server</h3>
+          </div>
+          <div class="skill-box reveal">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="heading">Meus <span>Projetos</span></h2>
+
+        <div class="projects-container">
+          <div class="project-card">
+            <img
+              src="./assets/image/projeto-league-of-legends.png"
+              alt="Interface Riot Games"
+            />
+            <h3>Riot Games Clone</h3>
+            <p>
+              Interface de login desenvolvida com HTML e CSS, focando em
+              fidelidade visual e responsividade.
+            </p>
+
+            <div class="btn-group">
+              <a
+                href="https://login-league-of-legends-gamma.vercel.app/"
+                target="_blank"
+                class="btn"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Claudineiii/login_league-of-legends"
+                target="_blank"
+                class="btn"
+                >Github Repo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/image/projeto-zoom.png" alt="interface zoom" />
+            <h3>Zoom clone</h3>
+            <p>interface desenvolvida com HTML e CSS</p>
+
+            <div class="btn-group">
+              <a
+                href="https://projeto-zoom.vercel.app/"
+                target="_blank"
+                class="btn"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Claudineiii/projeto-zoom"
+                target="_blank"
+                class="btn"
+                >Github Repo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/image/projeto-darkmode.png" alt="dark-mode" />
+            <h3>Dark-Mode</h3>
+            <p>interface desenvolvida com HTML, CSS e javascript</p>
+
+            <div class="btn-group">
+              <a
+                href="https://formulario-dark-mode.vercel.app/"
+                target="_blank"
+                class="btn"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Claudineiii/Formulario-dark-mode"
+                target="_blank"
+                class="btn"
+                >Github Repo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="input-box">
+          <h2 class="section-title">Contact <span>Me</span></h2>
+
+          <div class="input">
+            <input type="email" placeholder="example@email.com" />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <button class="btn">Send Message</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
